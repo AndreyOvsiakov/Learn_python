@@ -2,5 +2,4 @@
 
 
 def length(txt):
-    lenn = len(txt)
-    return lenn
+    return len(txt)

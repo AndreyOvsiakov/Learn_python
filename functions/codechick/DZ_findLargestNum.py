@@ -1,9 +1,13 @@
-#https://codechick.io/challenges/33
+# https://codechick.io/challenges/33
 
 
 def findLargestNum(nums):
-    big = 0
+    if not nums:
+        return []
+
+    # big = float('-infinity')
+    big = nums[0]
     for i in nums:
         if i > big:
             big = i
-    return big      
+    return big
