@@ -11,4 +11,3 @@ def XO(txt):
         if char == "O":
             o_char = o_char + 1
     return x_char == o_char
-
